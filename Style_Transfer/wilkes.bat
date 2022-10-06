@@ -1,0 +1,1 @@
+python.exe evaluate.py --checkpoint checkpoints\%1 --in-path .\wilkes --out-path .\wilkes-done\%1 --batch-size 1

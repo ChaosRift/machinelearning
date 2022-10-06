@@ -1,0 +1,1 @@
+for %%i in (styles\*) DO python.exe train.py --vgg-path %CD%\data\vgg\imagenet-vgg-verydeep-19.mat --train-path %CD%\data\train_full --test-dir %CD%\test_out --test-img %CD%/test/test.jpg  --checkpoint-dir %CD%/checkpoints/%%~ni --style %CD%\styles\%%~nxi  --epochs 2 --batch-size 5

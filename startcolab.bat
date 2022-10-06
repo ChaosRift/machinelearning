@@ -1,0 +1,1 @@
+jupyter lab --NotebookApp.allow_origin='https://colab.research.google.com' --port=8888 --NotebookApp.port_retries=0 --NotebookApp.token=1ed192fcd81d84d416c2f3198cfa7f821b45fdc7709f71b9

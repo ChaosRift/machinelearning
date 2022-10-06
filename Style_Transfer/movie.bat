@@ -1,0 +1,1 @@
+python.exe transform_video.py --style %1 --in-path %2 --batch-size 5

@@ -1,0 +1,1 @@
+python.exe train.py --vgg-path %CD%\data\vgg\imagenet-vgg-verydeep-19.mat --train-path %CD%\data\train_full --checkpoint-dir %CD%\checkpoints\%1 --style %CD%\styles\%1.jpg --epochs 1 --batch-size 5

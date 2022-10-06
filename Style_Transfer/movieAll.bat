@@ -1,0 +1,1 @@
+for /d %%i in (checkpoints\*) DO python.exe transform_video.py --checkpoint checkpoints/%%~nxi/ --in-path %1 --out-path %1_%%~nxi.mp4 --batch-size 1

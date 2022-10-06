@@ -1,0 +1,1 @@
+python.exe evaluate.py --checkpoint checkpoints\%2 --in-path .\wilkes\%1.jpg --out-path .\nft-out\test --batch-size 1

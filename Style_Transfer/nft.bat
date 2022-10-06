@@ -1,0 +1,1 @@
+python.exe evaluate.py --checkpoint checkpoints\%1 --in-path .\nft --out-path .\nft-out\%1 --batch-size 1
